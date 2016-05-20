@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftingCode", "CraftingCode\CraftingCode.csproj", "{01C2D137-636F-41D2-829A-D4C67422BF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftingCode.Tests", "CraftingCode.Tests\CraftingCode.Tests.csproj", "{3DD20AF1-CDA4-4802-BDBE-15628CBA659C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C2D137-636F-41D2-829A-D4C67422BF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C2D137-636F-41D2-829A-D4C67422BF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C2D137-636F-41D2-829A-D4C67422BF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C2D137-636F-41D2-829A-D4C67422BF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD20AF1-CDA4-4802-BDBE-15628CBA659C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD20AF1-CDA4-4802-BDBE-15628CBA659C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD20AF1-CDA4-4802-BDBE-15628CBA659C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD20AF1-CDA4-4802-BDBE-15628CBA659C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
