@@ -4,13 +4,19 @@ using Xunit;
 
 namespace CraftingCode.Tests
 {
-    public class UnitTest1
+    public class RomanNumeralsConverterShould
     {
-        [Fact]
-        public void FailingTest()
+        [Theory]
+        [InlineData(1,"I")]
+        [InlineData(2,"II")]
+        [InlineData(3,"III")]
+        [InlineData(5,"V")]
+        [InlineData(7,"VII")]
+        [InlineData(10,"X")]
+        [InlineData(18,"XVIII")]
+        public void ConvertDecimalToARomanNumber(int arabicNumeral, string romanNumeral)
         {
-            //Assert.True(false);
-            true.Should().BeFalse();
+            RomanNumeralsConverter.Convert(arabicNumeral).Should().Be(romanNumeral);
         }
     }
 }
