@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Moq;
 using Xunit;
 
@@ -58,7 +53,7 @@ namespace CraftingCode.Tests
                 ChangeAmount = 100,
                 TotalBalance = 1000
             } };
-            var expectedOutput = string.Format("{0} | {1} | {2}", testStatements[0].Date.ToString("d"),
+            var expectedOutput = string.Format("{0} | {1} | {2}", testStatements[0].Date.ToString(""),
                 testStatements[0].ChangeAmount, testStatements[0].TotalBalance);
             mockedBankRepository.Setup(br => br.Statements()).Returns(testStatements);
             var accountService = new AccountService(mockedOutputWriter.Object, mockedBankRepository.Object);
